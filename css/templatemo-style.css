@@ -966,6 +966,10 @@ header {
 
 @media (max-width: 992px) {
 
+  .image{
+    max-width: 200px;
+  }
+
   .responsive-nav {
     display: none;
   }
@@ -990,6 +994,10 @@ header {
 
 
 @media (max-width: 767px) {
+
+  .image{
+    max-width: 200px;
+  }
 
   .responsive-nav {
     display: block;
@@ -1048,6 +1056,10 @@ header {
 }
 
 @media (max-width: 690px) {
+
+  .image{
+    max-width: 200px;
+  }
 
   .section-heading p {
     position: relative;
