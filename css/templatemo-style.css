@@ -618,15 +618,6 @@ header {
   text-align: left;
 }
 
-#projects .item .image {
-  position: relative;
-}
-
-#projects .item .image img {
-  width: 100%;
-  overflow: hidden;
-}
-
 #projects .masonry {
   position: relative;
   width: 100%;
