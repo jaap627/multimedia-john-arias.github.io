@@ -618,20 +618,6 @@ header {
   text-align: left;
 }
 
-#projects .item {
-  text-align: left;
-  position: relative;
-  z-index: 10;
-}
-
-#projects .item .image {
-  position: relative;
-}
-
-#projects .item .image img {
-  width: 100%;
-  overflow: hidden;
-}
 
 
 
@@ -965,6 +951,21 @@ header {
 
 @media (max-width: 992px) {
 
+  #projects .item {
+    text-align: left;
+    position: relative;
+    z-index: 10;
+  }
+  
+  #projects .item .image {
+    position: relative;
+  }
+  
+  #projects .item .image img {
+    width: 100%;
+    overflow: hidden;
+  }
+
   .responsive-nav {
     display: none;
   }
@@ -989,6 +990,21 @@ header {
 
 
 @media (max-width: 767px) {
+
+  #projects .item {
+    text-align: left;
+    position: relative;
+    z-index: 10;
+  }
+  
+  #projects .item .image {
+    position: relative;
+  }
+  
+  #projects .item .image img {
+    width: 100%;
+    overflow: hidden;
+  }
 
   .responsive-nav {
     display: block;
@@ -1047,6 +1063,22 @@ header {
 }
 
 @media (max-width: 690px) {
+
+
+  #projects .item {
+    text-align: left;
+    position: relative;
+    z-index: 10;
+  }
+  
+  #projects .item .image {
+    position: relative;
+  }
+  
+  #projects .item .image img {
+    width: 100%;
+    overflow: hidden;
+  }
 
   .section-heading p {
     position: relative;
