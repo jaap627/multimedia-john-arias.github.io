@@ -618,20 +618,19 @@ header {
   text-align: left;
 }
 
-#projects .masonry {
+#projects .item {
+  text-align: left;
   position: relative;
-  width: 100%;
+  z-index: 10;
 }
 
-#projects .masonry .item img {
-  transition: all 1s;
+#projects .item .image {
+  position: relative;
+}
+
+#projects .item .image img {
   width: 100%;
   overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#projects .masonry .item img:hover {
-  opacity: 0.5;
 }
 
 
